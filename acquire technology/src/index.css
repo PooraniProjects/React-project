@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container_page{
+    width: 85%;
+    margin: 0 auto;
+   
+}
+/* media query */
+@media  screen and (max-width:566px) {
+    .nav_btn{
+        flex-direction: column;
+    }
+    .home_page{
+        padding-top: 2rem;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .home_right_img img{
+        width: 400px;
+        object-fit: contain;
+        padding: 4rem 2rem;
+    }
+    .btnn{
+        font-size: 1rem;
+    }
+    .acqurie_page,
+    .acq_offer_page,
+    .end_page,
+    .live_clss,
+    .live_desc,
+    .why_start_content,.why_middle_content,
+    .main_founder{
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .acqurie_left_img img,
+    .acq_offer_right img{
+        width: 400px;
+        object-fit: contain;
+        padding: 2rem 3rem;
+    }
+ 
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    
+    .Cpros .card{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateX(-35%);
+        width: 320px;
+        margin-bottom: 2rem;
+    }
+    .head_card_title{
+        padding-top: 2rem;
+    }
+   
+    .live_clss > .right_live_content img,
+    .live_desc > .live_left_desc img{
+        width: 350px;
+        object-fit: contain;
+        padding: 2rem 5rem;
+    }
+    .live_clss > .left_live_content h1{
+       padding-top: 9rem;
+       text-align: center;
+    }
+    .live_desc > .live_right_desc h1,p{
+        text-align: center;
+    }
+
+    .why_start_content > .content_left h2{
+        padding-top: 5rem;
+        text-align: center;
+        
+    }
+    .why_start_content > .img_right > img{
+        padding: 1rem 5rem;
+        width: 400px;
+        height: 330px;
+    }
+    .vertical{
+        display: none;
+      
+    }
+    .why_left_content,
+    .why_right_content{
+    max-width: 400PX;
+
+    }
+    .img_first{
+        padding: 1rem 2rem;
+        width: 380px;
+        object-fit: contain;
+    }
+    .img_second{
+        padding: 1rem 1rem;
+        width: 380px;
+        object-fit: contain;
+    }
+    .team_page >h1,
+    .team_page > p{
+        text-align: center;
+    }
+    .team_page > h3{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+
+    .footer_content{
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        
+    }
+    .footer_right > h3,
+    .footer_middle {
+        padding-top: 1.5rem;
+    }
+}
+
+@media  screen and (min-width:567px) and (max-width:768px) {
+    .nav_btn{
+        flex-direction: column;
+    }
+    .home_page,
+    .acqurie_page,
+    .acq_offer_page,
+    .end_page,
+    .live_clss,
+    .live_desc,
+    .why_start_content,.why_middle_content,
+    .main_founder{
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .home_page{
+        padding-top: 2rem;
+        text-align: center;
+        
+    }
+    .home_left_content{
+       text-align: center;
+    }
+    .home_right_img img{
+        width: 400px;
+        object-fit: contain;
+        padding: 4rem 2rem;
+    }
+    .acqurie_left_img img,
+    .acq_offer_right img{
+        width: 500px;
+        object-fit: contain;
+        padding: 3rem 2rem;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    .Cpros .card{
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateX(-35%);
+        width: 420px;
+        margin-bottom: 2rem;
+    }
+    .head_card_title{
+        padding-top: 2rem;
+    }
+    .footer_content{
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        
+    }
+    .footer_right > h3,
+    .footer_middle {
+        padding-top: 1.5rem;
+    }
+    .btnn{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .live_clss > .left_live_content h1,
+    .why_start_content > .content_left h2{
+        padding-top: 5rem;
+     
+     }
+   
+     .why_start_content > .img_right > img{
+         padding: 1rem 3rem;
+         width: 400px;
+         object-fit: contain;
+     }
+     .vertical{
+        display: none;
+      
+    }
+}

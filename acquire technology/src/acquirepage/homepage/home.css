@@ -1,0 +1,178 @@
+
+
+.home_page{
+    margin-top:5.8rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom:3.5rem ;
+    z-index: 1000;
+    
+}
+
+.home_left_content{
+    max-width: 500px;
+}
+
+.home_left_content h1{
+    font-size: 3rem;
+}
+.home_left_content h2{
+    font-size: 2.9rem;
+    color: red;
+}
+
+.home_left_content p{
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+.home_right_img{
+    text-align: left;
+}
+
+.home_right_img img{
+    width: 500px;
+  object-fit: contain;
+}
+
+.btnn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.acqurie_page_section{
+    background-color: #d37786;
+    
+    padding: 2.5rem 0;
+}
+.acqurie_page{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+.acqurie_left_img{   
+    text-align: left;
+    transform: rotate(20deg);
+}
+
+.acqurie_left_img img{
+    width: 500px;
+    object-fit: contain;
+}
+.acqurie_right_content{
+    max-width: 500px;
+}
+.acqurie_right_content h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.acqurie_right_content p{
+    text-align: left;
+}
+.acqurie_right_content .icons > div {
+    padding-bottom: 1rem;
+}
+.acqurie_right_content .icons > div > i  {
+    margin-right: 1rem;
+} 
+
+
+
+.acquire_offer_section {
+    margin-top: 3rem;
+}
+.acq_offe_pge > h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+} 
+
+.acq_offer_page{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.acq_offer_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.acq_offer_left i{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+    margin-bottom: 1.5rem;
+   
+}
+.acq_offer_left h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+.acq_offer_left p{
+    text-align: center;
+    margin-bottom: 1.5rem;
+   
+}
+.acq_offer_right{
+    text-align: right;
+}
+.acq_offer_left > .card{
+    background-color: #eeeeee;
+    padding: 3rem 1.2rem;
+  
+}
+.acq_offer_right img{
+    width: 580px;
+    object-fit: contain;
+}
+
+.head_card_title{
+    text-align: center; 
+  
+
+}
+.head_card_title h1{
+    font-weight: bold;
+    font-size: 2.7rem; 
+}
+.head_card_title p{
+    padding-bottom: 2rem; 
+}
+
+.course_btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+ 
+
+}
+
+.end_page_bg{
+    margin-top: 2rem;
+    background-color: #d37786;
+    padding: 1rem;
+}
+.end_page{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.end_page_btn{
+    padding: 0.5rem 1.5rem;
+    color: brown;
+    font-size: 1.3rem;
+    font-weight: 500;
+}

@@ -1,0 +1,18 @@
+
+.head_card_title{
+    margin-top: 5.5rem;
+    text-align: center; 
+   
+}
+
+.course_continer{
+    margin-bottom: 6rem;
+}
+.head_card_title h1{
+    
+    font-weight: bold;
+    font-size: 2.7rem; 
+}
+.head_card_title p{
+    padding-bottom: 2rem; 
+}

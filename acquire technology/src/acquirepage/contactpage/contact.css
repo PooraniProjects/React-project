@@ -1,0 +1,49 @@
+.contact{
+    margin-top: 8rem;
+}
+.contact_page{
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap:20px;
+}
+.card_icons{
+    display: flex;
+    align-items: center;
+    
+}
+.contact_page > .card{
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.contact_page > .card > .card-body > div >i{
+    margin-right:1rem;
+    color:brown;
+    font-size: 2rem;
+}
+.contact_page > .card > .card-body > div >h4{
+  
+    color:brown;
+   
+}
+
+.contacts{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.shadow{
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.form_btn{
+
+    font-size: 1.2rem;
+    padding:.4rem 1.1rem
+}
+.form_title{
+    font-size: 2rem;
+    font-weight:400;
+}

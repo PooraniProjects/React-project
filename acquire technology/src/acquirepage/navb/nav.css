@@ -1,0 +1,39 @@
+.nav_logo  img{
+    width: 200px;
+}
+.btn_contact{
+    padding: .5rem 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+    display: block;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:black;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+.nav_inside_content{
+    background-color: hsl(0, 8%, 95%);
+}
+.nav_btn > .btn_first{
+    padding: .5rem 1.3rem;
+    font-size: 1.2rem;
+    color:rgb(184, 13, 13);
+    font-weight: 600;
+}
+.nav_btn > .btn_first:hover{
+   border: 1px solid red
+}
+.nav_btn > .btn_second{
+    padding: .5rem 1.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid red;
+    margin-top: .5rem;
+}
